@@ -1,6 +1,6 @@
 {
-  "name": "shared-lib",
-  "version": "0.0.1",
+  "name": "@equifax/shared-lib",
+  "version": "0.0.7",
   "peerDependencies": {
     "@angular/common": "^8.2.11",
     "@angular/core": "^8.2.11"

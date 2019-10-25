@@ -10,7 +10,8 @@
     "e2e": "ng e2e",
     "lib:build": "ng build shared-lib",
     "lib:watch": "ng build shared-lib --watch",
-    "lib:publish": "npm run lib:build && cd dist/shared-lib && npm pack npm publish"
+    "lib:publish": "npm run lib:build && cd dist/shared-lib && npm pack npm publish",
+    "lib:pack": "cd dist/shared-lib && npm pack"
   },
   "private": true,
   "dependencies": {
@@ -49,5 +50,8 @@
     "tsickle": "^0.37.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
+  },
+  "optionalDependencies": {
+    "shared-lib": "file:../shared-app/dist/shared-lib"
   }
 }
