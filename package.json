@@ -11,7 +11,10 @@
     "lib:build": "ng build shared-lib",
     "lib:watch": "ng build shared-lib --watch",
     "lib:publish": "npm run lib:build && cd dist/shared-lib && npm pack npm publish",
-    "lib:pack": "cd dist/shared-lib && npm pack"
+    "lib:npm_pack": "cd dist/shared-lib && npm pack",
+    "lib:copy-readme": "copy .\\README.md .\\dist\\shared-lib",
+    "lib:copy-files": "npm run lib:copy-readme",
+    "lib:package": "npm run lib:build && npm run lib:copy-readme && npm run lib:npm_pack"
   },
   "private": true,
   "dependencies": {
@@ -50,8 +53,5 @@
     "tsickle": "^0.37.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
-  },
-  "optionalDependencies": {
-    "shared-lib": "file:../shared-app/dist/shared-lib"
   }
 }

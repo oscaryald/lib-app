@@ -14,8 +14,8 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2018", "dom"],
     "paths": {
-      "@equifax/shared-lib": ["dist/shared-lib"],
-      "@equifax/shared-lib/*": ["dist/shared-lib/*"]
+      "@company/shared-lib": ["dist/shared-lib"],
+      "@company/shared-lib/*": ["dist/shared-lib/*"]
     }
   },
   "angularCompilerOptions": {
