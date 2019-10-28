@@ -1,12 +1,8 @@
 import { NgModule } from '@angular/core';
-import { SharedLibComponent } from './shared-lib.component';
-
-
 
 @NgModule({
-  declarations: [SharedLibComponent],
-  imports: [
-  ],
-  exports: [SharedLibComponent]
+  declarations: [],
+  imports: [],
+  exports: [],
 })
-export class SharedLibModule { }
+export class SharedLibModule {}

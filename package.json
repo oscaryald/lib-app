@@ -10,10 +10,9 @@
     "e2e": "ng e2e",
     "lib:build": "ng build shared-lib",
     "lib:watch": "ng build shared-lib --watch",
-    "lib:publish": "npm run lib:build && cd dist/shared-lib && npm pack npm publish",
+    "lib:publish": "npm run lib:package && cd dist/shared-lib && npm publish",
     "lib:npm_pack": "cd dist/shared-lib && npm pack",
     "lib:copy-readme": "copy .\\README.md .\\dist\\shared-lib",
-    "lib:copy-files": "npm run lib:copy-readme",
     "lib:package": "npm run lib:build && npm run lib:copy-readme && npm run lib:npm_pack"
   },
   "private": true,

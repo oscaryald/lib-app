@@ -5,17 +5,13 @@ import { Observable, Subject } from 'rxjs';
   providedIn: 'root',
 })
 export class ListService {
-  timer: any;
-  private list$: Subject<string> = new Subject<string>();
-  list: Observable<string> = this.list$.asObservable();
+  private message$: Subject<string> = new Subject<string>();
 
-  constructor() {
-    this.timer = setTimeout(this.nextItem.bind(this), 1000);
+  setMessage(message: any) {
+    this.message$.next(message);
   }
 
-  nextItem() {
-    const now = new Date();
-    const currentTime = now.getTime().toString();
-    this.list$.next(currentTime);
+  getMessage(): Observable<any> {
+    return this.message$.asObservable();
   }
 }
