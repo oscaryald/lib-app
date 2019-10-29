@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ListComponent } from './components/list.component';
+import { ListComponent } from './container/list.component';
 
 @NgModule({
   declarations: [ListComponent],
