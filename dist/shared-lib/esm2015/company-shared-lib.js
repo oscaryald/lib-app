@@ -1,0 +1,11 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+export { ListService, ListModule, BorderModule } from './public-api';
+export { BorderDirective as ɵb } from './lib/border/border.directive';
+export { ListComponent as ɵa } from './lib/list/list-container/list.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29tcGFueS1zaGFyZWQtbGliLmpzIiwic291cmNlUm9vdCI6Im5nOi8vQGNvbXBhbnkvc2hhcmVkLWxpYi8iLCJzb3VyY2VzIjpbImNvbXBhbnktc2hhcmVkLWxpYi50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBSUEsc0RBQWMsY0FBYyxDQUFDO0FBRTdCLE9BQU8sRUFBQyxlQUFlLElBQUksRUFBRSxFQUFDLE1BQU0sK0JBQStCLENBQUM7QUFDcEUsT0FBTyxFQUFDLGFBQWEsSUFBSSxFQUFFLEVBQUMsTUFBTSwwQ0FBMEMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogR2VuZXJhdGVkIGJ1bmRsZSBpbmRleC4gRG8gbm90IGVkaXQuXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9wdWJsaWMtYXBpJztcblxuZXhwb3J0IHtCb3JkZXJEaXJlY3RpdmUgYXMgybVifSBmcm9tICcuL2xpYi9ib3JkZXIvYm9yZGVyLmRpcmVjdGl2ZSc7XG5leHBvcnQge0xpc3RDb21wb25lbnQgYXMgybVhfSBmcm9tICcuL2xpYi9saXN0L2xpc3QtY29udGFpbmVyL2xpc3QuY29tcG9uZW50JzsiXX0=

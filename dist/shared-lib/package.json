@@ -1,0 +1,34 @@
+{
+  "name": "@company/shared-lib",
+  "version": "0.0.10",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oscaryald/lib-app/"
+  },
+  "description": "This is a simple example Angular Library published to npm.",
+  "keywords": [
+    "Angular",
+    "Library"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular/common": "^8.2.11",
+    "@angular/core": "^8.2.11"
+  },
+  "main": "bundles/company-shared-lib.umd.js",
+  "module": "fesm5/company-shared-lib.js",
+  "es2015": "fesm2015/company-shared-lib.js",
+  "esm5": "esm5/company-shared-lib.js",
+  "esm2015": "esm2015/company-shared-lib.js",
+  "fesm5": "fesm5/company-shared-lib.js",
+  "fesm2015": "fesm2015/company-shared-lib.js",
+  "typings": "company-shared-lib.d.ts",
+  "metadata": "company-shared-lib.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
